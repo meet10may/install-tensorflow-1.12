@@ -1,3 +1,5 @@
+### FROM https://gist.github.com/automata/09fd4e1e64118dda4a79559898dd5022
+
 # install-tensorflow-1.12
 sudo apt-get install nvidia-384 nvidia-modprobe
 
