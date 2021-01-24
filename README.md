@@ -1,6 +1,6 @@
 # Install-tensorflow-1.12 with CUDA 9.0
 
-This will allow you to install tensorflow-1.12 in Ubuntu 16.04. Please note, that CUDA version and driver need to be compatibile. Check the compatiility in [stackoverflow post](https://stackoverflow.com/questions/30820513/what-is-the-correct-version-of-cuda-for-my-nvidia-driver/30820690#30820690) and [nvidia page](https://docs.nvidia.com/deploy/cuda-compatibility/_ for more detail.
+This will allow you to install tensorflow-1.12 in Ubuntu 16.04. Please note, that CUDA version and driver need to be compatibile. Check the compatiility in [stackoverflow post](https://stackoverflow.com/questions/30820513/what-is-the-correct-version-of-cuda-for-my-nvidia-driver/30820690#30820690) and [developer page at NVIDIA](https://docs.nvidia.com/deploy/cuda-compatibility/) for more detail.
 
 Assuming that nvidia drivers are not installed.
 
@@ -31,6 +31,8 @@ Install CUDA 9.0
 ``./cuda_9.0.176_384.81_linux-run --extract=$HOME/nvidia-install``
 
 ``sudo ./cuda-linux.9.0.176-22781540.run``
+
+Make sure you accept the license and agreement. Use `d` key to scroll the page
 
 ![alt text](https://github.com/meet10may/install-tensorflow-1.12/blob/main/docs/step-3.png)
 ![alt text](https://github.com/meet10may/install-tensorflow-1.12/blob/main/docs/step-4.png)
